@@ -3,8 +3,8 @@ import mysql.connector
 
 files = os.listdir("./2015")
 
-cnx = mysql.connector.connect(user='root', password='Trololo1',
-                              host='127.0.0.1', database='climatic_data')
+cnx = mysql.connector.connect(user='DBoptimisation', password='password',
+                              host='radagast.asuscomm.com', database='climatic_data')
 cursor = cnx.cursor()
 
 for file in files:
